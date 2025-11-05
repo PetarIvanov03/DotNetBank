@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿// Petar Ivanov, F116389 - Assembly metadata configuration for DotNetBank.
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 

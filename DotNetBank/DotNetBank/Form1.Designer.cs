@@ -1,4 +1,5 @@
-﻿namespace DotNetBank
+﻿// Petar Ivanov, F116389 - Designer-generated layout for the main form.
+namespace DotNetBank
 {
     partial class Form1
     {
