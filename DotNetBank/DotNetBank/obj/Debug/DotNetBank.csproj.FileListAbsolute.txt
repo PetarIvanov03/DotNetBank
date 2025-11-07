@@ -1,0 +1,10 @@
+D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\bin\Debug\DotNetBank.exe.config
+D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\bin\Debug\DotNetBank.xml
+D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\bin\Debug\DotNetBank.exe
+D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\bin\Debug\DotNetBank.pdb
+D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\obj\Debug\DotNetBank.csproj.AssemblyReference.cache
+D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\obj\Debug\DotNetBank.Properties.Resources.resources
+D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\obj\Debug\DotNetBank.csproj.GenerateResource.cache
+D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\obj\Debug\DotNetBank.csproj.CoreCompileInputs.cache
+D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\obj\Debug\DotNetBank.exe
+D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\obj\Debug\DotNetBank.pdb

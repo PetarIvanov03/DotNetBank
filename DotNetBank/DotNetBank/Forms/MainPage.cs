@@ -14,12 +14,12 @@ namespace DotNetBank
     /// <summary>
     /// Represents the main application form for DotNetBank.
     /// </summary>
-    public partial class Form1 : Form
+    public partial class MainPage : Form
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="Form1"/> class.
+        /// Initializes a new instance of the <see cref="MainPage"/> class.
         /// </summary>
-        public Form1()
+        public MainPage()
         {
             InitializeComponent();
         }
