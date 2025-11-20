@@ -26,7 +26,6 @@ namespace DotNetBank.Models
             Balance -= total;
             if (FreeWithdrawalsLeft > 0) FreeWithdrawalsLeft--;
 
-            BalanceChanged?.Invoke(this, new BalanceChangedEventArgs(Code, old, Balance, DateTime.Now));
         }
     }
 }

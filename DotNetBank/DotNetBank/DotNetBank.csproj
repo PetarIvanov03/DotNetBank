@@ -55,7 +55,6 @@
     <Compile Include="Forms\MainPage.Designer.cs">
       <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Helpers\Events.cs" />
     <Compile Include="Models\BankAccount.cs" />
     <Compile Include="Models\CheckingAccount.cs" />
     <Compile Include="Models\SavingsAccount.cs" />
@@ -86,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Helpers\" />
     <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>

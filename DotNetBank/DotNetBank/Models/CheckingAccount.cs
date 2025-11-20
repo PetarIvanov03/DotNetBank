@@ -34,7 +34,6 @@ namespace DotNetBank.Models
 
             // (по желание) можеш да логнеш fee като отделна Operation с тип Fee в сервиза
 
-            BalanceChanged?.Invoke(this, new BalanceChangedEventArgs(Code, old, Balance, DateTime.Now));
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using DotNetBank.Exceptions;
-using DotNetBank.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +26,7 @@ namespace DotNetBank.Models
             if (amount <= 0) throw new InvalidAmountException("Amount must be > 0.");
             var old = Balance;
             Balance += amount;
-            BalanceChanged?.Invoke(this, new BalanceChangedEventArgs(IBAN, old, Balance, DateTime.Now));
+
         }
 
         public virtual void Withdraw(decimal amount)
@@ -36,7 +35,7 @@ namespace DotNetBank.Models
             if (Balance < amount) throw new InsufficientFundsException("Not enough funds.");
             var old = Balance;
             Balance -= amount;
-            BalanceChanged?.Invoke(this, new BalanceChangedEventArgs(IBAN, old, Balance, DateTime.Now));
+
         }
         public override string ToString()
         {
