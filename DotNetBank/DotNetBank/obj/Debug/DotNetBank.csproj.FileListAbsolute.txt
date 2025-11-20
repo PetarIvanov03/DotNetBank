@@ -8,3 +8,4 @@ D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на п
 D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\obj\Debug\DotNetBank.csproj.CoreCompileInputs.cache
 D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\obj\Debug\DotNetBank.exe
 D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\obj\Debug\DotNetBank.pdb
+D:\University\NBU\NBU\Year 3\Semester 5\CSCB579 Програмиране на приложения с Microsoft Visual C# .NET\ProjectOne\DotNetBank\DotNetBank\DotNetBank\obj\Debug\DotNetBank.exe.config

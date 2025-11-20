@@ -4,36 +4,79 @@
         <name>DotNetBank</name>
     </assembly>
     <members>
-        <member name="T:DotNetBank.Form1">
+        <member name="T:DotNetBank.Controllers.AccountsController">
+            <summary>
+            Слоят между формите и услугите за банкови сметки.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Controllers.AuthController">
+            <summary>
+            Отговаря за login/register логиката.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Data.InMemoryStore">
+            <summary>
+            Статичен "in-memory" склад за данни за целите на демонстрацията.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.MainPage">
             <summary>
             Represents the main application form for DotNetBank.
             </summary>
         </member>
-        <member name="M:DotNetBank.Form1.#ctor">
+        <member name="M:DotNetBank.MainPage.#ctor">
             <summary>
-            Initializes a new instance of the <see cref="T:DotNetBank.Form1"/> class.
+            Initializes a new instance of the <see cref="T:DotNetBank.MainPage"/> class.
             </summary>
         </member>
-        <member name="F:DotNetBank.Form1.components">
+        <member name="F:DotNetBank.MainPage.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:DotNetBank.Form1.Dispose(System.Boolean)">
+        <member name="M:DotNetBank.MainPage.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:DotNetBank.Form1.InitializeComponent">
+        <member name="M:DotNetBank.MainPage.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="T:DotNetBank.Models.AccountCreationRequest">
+            <summary>
+            DTO за създаване на нова банкова сметка.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Models.OperationRecord">
+            <summary>
+            Проста операция над банкова сметка за целите на демонстрацията.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Models.SavingsAccount.ApplyMonthlyInterest">
+            <summary>Начисляване на месечна лихва (прост пример).</summary>
+        </member>
+        <member name="T:DotNetBank.Models.SessionContext">
+            <summary>
+            Просто хранилище за текущия потребител по време на изпълнение.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Models.UserProfile">
+            <summary>
+            Представлява потребителски профил за вход в системата.
+            </summary>
+        </member>
         <member name="M:DotNetBank.Program.Main">
             <summary>
             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Services.InMemoryUserService">
+            <summary>
+            Прост in-memory UserService. Паролите са в чист текст за целите на упражнението.
             </summary>
         </member>
         <member name="T:DotNetBank.Properties.Resources">
