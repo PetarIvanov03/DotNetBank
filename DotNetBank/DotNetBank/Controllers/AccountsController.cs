@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using DotNetBank.Models;
 using DotNetBank.Services;
 
@@ -23,10 +24,12 @@ namespace DotNetBank.Controllers
             return _accountService.Create(request);
         }
 
-        public IEnumerable<BankAccount> ListAccounts(string owner = null)
+        public IEnumerable<BankAccount> ListAccounts()
         {
-            if (string.IsNullOrWhiteSpace(owner)) return _accountService.GetAll();
-            return _accountService.GetByOwner(owner);
+            var currentUser = SessionContext.CurrentUser;
+            if (currentUser == null) return Array.Empty<BankAccount>();
+
+            return _accountService.GetByOwner(currentUser.Username);
         }
 
         public IEnumerable<OperationRecord> ListOperations(string iban = null)

@@ -9,7 +9,6 @@
         private System.Windows.Forms.Label lblFeedback;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnRegister;
-        private System.Windows.Forms.CheckBox chkAdmin;
 
         protected override void Dispose(bool disposing)
         {
@@ -30,11 +29,10 @@
             this.lblFeedback = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnRegister = new System.Windows.Forms.Button();
-            this.chkAdmin = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
-            // 
+            //
             // lblTitle
-            // 
+            //
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.Location = new System.Drawing.Point(28, 18);
@@ -57,33 +55,23 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(226, 20);
             this.txtPassword.TabIndex = 2;
-            // 
-            // chkAdmin
-            // 
-            this.chkAdmin.AutoSize = true;
-            this.chkAdmin.Location = new System.Drawing.Point(32, 110);
-            this.chkAdmin.Name = "chkAdmin";
-            this.chkAdmin.Size = new System.Drawing.Size(105, 17);
-            this.chkAdmin.TabIndex = 3;
-            this.chkAdmin.Text = "Админ потребител";
-            this.chkAdmin.UseVisualStyleBackColor = true;
-            // 
+            //
             // btnLogin
-            // 
-            this.btnLogin.Location = new System.Drawing.Point(32, 142);
+            //
+            this.btnLogin.Location = new System.Drawing.Point(32, 124);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(107, 30);
-            this.btnLogin.TabIndex = 4;
+            this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Вход";
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
+            //
             // btnRegister
-            // 
-            this.btnRegister.Location = new System.Drawing.Point(151, 142);
+            //
+            this.btnRegister.Location = new System.Drawing.Point(151, 124);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(107, 30);
-            this.btnRegister.TabIndex = 5;
+            this.btnRegister.TabIndex = 4;
             this.btnRegister.Text = "Регистрация";
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
@@ -99,14 +87,13 @@
             this.lblFeedback.TabIndex = 6;
             // 
             // LoginForm
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(290, 218);
+            this.ClientSize = new System.Drawing.Size(290, 198);
             this.Controls.Add(this.lblFeedback);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.chkAdmin);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.lblTitle);

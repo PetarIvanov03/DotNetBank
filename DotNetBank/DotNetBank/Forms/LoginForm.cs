@@ -52,7 +52,7 @@ namespace DotNetBank
                     return;
                 }
 
-                _authController.Register(txtUsername.Text, txtPassword.Text, chkAdmin.Checked ? UserRole.Administrator : UserRole.Standard);
+                _authController.Register(txtUsername.Text, txtPassword.Text);
                 lblFeedback.Text = "Успешно създадохте профил. Опитайте да влезете.";
             }
             catch (Exception ex)

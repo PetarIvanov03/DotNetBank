@@ -20,8 +20,6 @@
         private System.Windows.Forms.Label lblCurrency;
         private System.Windows.Forms.Label lblInitial;
         private System.Windows.Forms.Label lblType;
-        private System.Windows.Forms.TextBox txtFilterOwner;
-        private System.Windows.Forms.Button btnFilterOwner;
         private System.Windows.Forms.TextBox txtOperationIban;
         private System.Windows.Forms.NumericUpDown nudAmount;
         private System.Windows.Forms.Button btnDeposit;
@@ -94,10 +92,8 @@
             this.tabControl1.TabIndex = 0;
             // 
             // tabAccounts
-            // 
+            //
             this.tabAccounts.Controls.Add(this.lblStatus);
-            this.tabAccounts.Controls.Add(this.btnFilterOwner);
-            this.tabAccounts.Controls.Add(this.txtFilterOwner);
             this.tabAccounts.Controls.Add(this.lblType);
             this.tabAccounts.Controls.Add(this.lblInitial);
             this.tabAccounts.Controls.Add(this.lblCurrency);
@@ -126,26 +122,9 @@
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(0, 13);
             this.lblStatus.TabIndex = 14;
-            // 
-            // btnFilterOwner
-            // 
-            this.btnFilterOwner.Location = new System.Drawing.Point(640, 16);
-            this.btnFilterOwner.Name = "btnFilterOwner";
-            this.btnFilterOwner.Size = new System.Drawing.Size(130, 23);
-            this.btnFilterOwner.TabIndex = 13;
-            this.btnFilterOwner.Text = "Филтрирай по клиент";
-            this.btnFilterOwner.UseVisualStyleBackColor = true;
-            this.btnFilterOwner.Click += new System.EventHandler(this.btnFilterOwner_Click);
-            // 
-            // txtFilterOwner
-            // 
-            this.txtFilterOwner.Location = new System.Drawing.Point(470, 18);
-            this.txtFilterOwner.Name = "txtFilterOwner";
-            this.txtFilterOwner.Size = new System.Drawing.Size(164, 20);
-            this.txtFilterOwner.TabIndex = 12;
-            // 
+            //
             // lblType
-            // 
+            //
             this.lblType.AutoSize = true;
             this.lblType.Location = new System.Drawing.Point(15, 156);
             this.lblType.Name = "lblType";
@@ -247,13 +226,13 @@
             this.txtIban.TabIndex = 1;
             // 
             // gridAccounts
-            // 
+            //
             this.gridAccounts.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gridAccounts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridAccounts.Location = new System.Drawing.Point(370, 50);
+            this.gridAccounts.Location = new System.Drawing.Point(370, 18);
             this.gridAccounts.Name = "gridAccounts";
-            this.gridAccounts.Size = new System.Drawing.Size(400, 350);
+            this.gridAccounts.Size = new System.Drawing.Size(400, 382);
             this.gridAccounts.TabIndex = 0;
             // 
             // tabOperations
