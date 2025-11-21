@@ -1,5 +1,8 @@
 ﻿namespace DotNetBank
 {
+    /// <summary>
+    /// Petar Ivanov, F116389 - Дизайнерски файл за формата за вход.
+    /// </summary>
     partial class LoginForm
     {
         private System.ComponentModel.IContainer components = null;
@@ -10,6 +13,9 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnRegister;
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Освобождава ресурсите, използвани от формата.
+        /// </summary>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -21,6 +27,9 @@
 
         #region Windows Form Designer generated code
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Инициализира визуалните компоненти на формата за вход.
+        /// </summary>
         private void InitializeComponent()
         {
             this.lblTitle = new System.Windows.Forms.Label();

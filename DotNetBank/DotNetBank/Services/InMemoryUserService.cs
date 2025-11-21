@@ -7,10 +7,13 @@ using DotNetBank.Models;
 namespace DotNetBank.Services
 {
     /// <summary>
-    /// Прост in-memory UserService. Паролите са в чист текст за целите на упражнението.
+    /// Petar Ivanov, F116389 - Прост in-memory UserService. Паролите са в чист текст за целите на упражнението.
     /// </summary>
     public class InMemoryUserService : IUserService
     {
+        /// <summary>
+        /// Petar Ivanov, F116389 - Регистрира нов потребител след базова валидация и проверка за дублиране.
+        /// </summary>
         public UserProfile Register(string username, string password, UserRole role = UserRole.Standard)
         {
             if (string.IsNullOrWhiteSpace(username)) throw new ArgumentException("Username required", nameof(username));
@@ -32,6 +35,9 @@ namespace DotNetBank.Services
             return user;
         }
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Извършва проверка на креденшъли и връща намерения потребител.
+        /// </summary>
         public UserProfile Login(string username, string password)
         {
             var user = InMemoryStore.Users.FirstOrDefault(u =>
@@ -41,6 +47,9 @@ namespace DotNetBank.Services
             return user;
         }
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Връща всички потребители от in-memory хранилището.
+        /// </summary>
         public IEnumerable<UserProfile> GetAll() => InMemoryStore.Users;
     }
 }

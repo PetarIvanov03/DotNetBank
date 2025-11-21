@@ -5,11 +5,17 @@ using DotNetBank.Models;
 
 namespace DotNetBank
 {
+    /// <summary>
+    /// Petar Ivanov, F116389 - Форма за вход и регистрация на потребители.
+    /// </summary>
     public partial class LoginForm : Form
     {
         private readonly AuthController _authController;
         private readonly AccountsController _accountsController;
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Инжектира контролерите и стартира инициализацията на компонентите.
+        /// </summary>
         public LoginForm(AuthController authController, AccountsController accountsController)
         {
             _authController = authController;
@@ -17,6 +23,9 @@ namespace DotNetBank
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Обработва събитието за вход и отваря основната страница при успех.
+        /// </summary>
         private void btnLogin_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtUsername.Text) || string.IsNullOrWhiteSpace(txtPassword.Text))
@@ -42,6 +51,9 @@ namespace DotNetBank
             main.Show();
         }
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Обработва регистрацията на нов потребител и показва съобщение за резултата.
+        /// </summary>
         private void btnRegister_Click(object sender, EventArgs e)
         {
             try
