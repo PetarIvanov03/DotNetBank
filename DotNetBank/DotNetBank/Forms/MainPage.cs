@@ -22,6 +22,9 @@ namespace DotNetBank
 
         private void MainPage_Load(object sender, EventArgs e)
         {
+            MakeGridNonClickable(gridAccounts);
+            MakeGridNonClickable(gridOperations);
+
             txtOwner.Text = SessionContext.CurrentUser?.Username;
             txtOwner.ReadOnly = true;
             if (cmbType.Items.Count > 0)

@@ -39,8 +39,6 @@ namespace DotNetBank
                 components.Dispose();
             }
             base.Dispose(disposing);
-            MakeGridNonClickable(gridAccounts);
-            MakeGridNonClickable(gridOperations);
         }
 
         #region Windows Form Designer generated code
