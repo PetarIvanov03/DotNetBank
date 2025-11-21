@@ -1,4 +1,6 @@
-﻿namespace DotNetBank
+﻿using System.Windows.Forms;
+
+namespace DotNetBank
 {
     partial class MainPage
     {
@@ -37,6 +39,8 @@
                 components.Dispose();
             }
             base.Dispose(disposing);
+            MakeGridNonClickable(gridAccounts);
+            MakeGridNonClickable(gridOperations);
         }
 
         #region Windows Form Designer generated code
@@ -46,8 +50,6 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabAccounts = new System.Windows.Forms.TabPage();
             this.lblStatus = new System.Windows.Forms.Label();
-            this.btnFilterOwner = new System.Windows.Forms.Button();
-            this.txtFilterOwner = new System.Windows.Forms.TextBox();
             this.lblType = new System.Windows.Forms.Label();
             this.lblInitial = new System.Windows.Forms.Label();
             this.lblCurrency = new System.Windows.Forms.Label();
@@ -372,6 +374,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridOperations)).EndInit();
             this.ResumeLayout(false);
 
+        }
+
+        void MakeGridNonClickable(DataGridView g)
+        {
+            g.ReadOnly = true;
+            g.EditMode = DataGridViewEditMode.EditProgrammatically;
+            g.MultiSelect = false;
+            g.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            g.RowHeadersVisible = false;
+            g.TabStop = false;
+
+            // визуално и функционално без селекция
+            g.DefaultCellStyle.SelectionBackColor = g.DefaultCellStyle.BackColor;
+            g.DefaultCellStyle.SelectionForeColor = g.DefaultCellStyle.ForeColor;
+            g.ClearSelection();
+            g.CurrentCell = null;
+
+            g.CellBeginEdit += (s, e) => e.Cancel = true;
+            g.CellClick += (s, e) => { g.ClearSelection(); g.CurrentCell = null; };
+            g.CellMouseDown += (s, e) => { g.ClearSelection(); g.CurrentCell = null; };
+            g.SelectionChanged += (s, e) => { g.ClearSelection(); g.CurrentCell = null; };
+            g.DataBindingComplete += (s, e) => { g.ClearSelection(); g.CurrentCell = null; };
         }
 
         #endregion
