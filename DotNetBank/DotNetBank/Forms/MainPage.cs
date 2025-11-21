@@ -23,7 +23,7 @@ namespace DotNetBank
         private void MainPage_Load(object sender, EventArgs e)
         {
             txtOwner.Text = SessionContext.CurrentUser?.Username;
-            txtOwner.IsAccessible = false;
+            txtOwner.ReadOnly = true;
             if (cmbType.Items.Count > 0)
             {
                 cmbType.SelectedIndex = 0;
@@ -34,7 +34,7 @@ namespace DotNetBank
 
         private void RefreshAccounts()
         {
-            gridAccounts.DataSource = _accountsController.ListAccounts(txtFilterOwner.Text).ToList();
+            gridAccounts.DataSource = _accountsController.ListAccounts().ToList();
         }
 
         private void RefreshOperations()
@@ -106,11 +106,6 @@ namespace DotNetBank
             {
                 MessageBox.Show(ex.Message, "Грешка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-        }
-
-        private void btnFilterOwner_Click(object sender, EventArgs e)
-        {
-            RefreshAccounts();
         }
 
         private void btnRefreshOperations_Click(object sender, EventArgs e)
