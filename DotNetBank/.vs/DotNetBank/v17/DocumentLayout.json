@@ -3,68 +3,40 @@
   "WorkspaceRootPath": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\services\\inmemoryaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\services\\inmemoryaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\forms\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\forms\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\services\\inmemoryuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\services\\inmemoryuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\dotnetbank\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\services\\inmemoryoperationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\services\\inmemoryoperationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\services\\ioperationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\services\\ioperationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\dotnetbank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\forms\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\forms\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\models\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\models\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\models\\operationrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\models\\operationrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\models\\accountcreationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\models\\accountcreationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\data\\inmemorystore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\data\\inmemorystore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\dotnetbank\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\dotnetbank\\services\\inmemoryuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\services\\inmemoryuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|d:\\university\\nbu\\nbu\\year 3\\semester 5\\cscb579 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 microsoft visual c# .net\\projectone\\dotnetbank\\dotnetbank\\dotnetbank\\forms\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\forms\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\dotnetbank\\data\\inmemorystore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\data\\inmemorystore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\dotnetbank\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\dotnetbank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB518890-B8DF-43E2-A7B8-57E9C4A60B56}|DotNetBank\\DotNetBank.csproj|solutionrelative:dotnetbank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,214 +46,126 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BankAccount.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\BankAccount.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Models\\BankAccount.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\BankAccount.cs",
-              "RelativeToolTip": "DotNetBank\\Models\\BankAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Program.cs",
+              "RelativeDocumentMoniker": "DotNetBank\\Program.cs",
+              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Program.cs",
+              "RelativeToolTip": "DotNetBank\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T11:28:45.105Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InMemoryUserService.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\InMemoryUserService.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Services\\InMemoryUserService.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\InMemoryUserService.cs",
-              "RelativeToolTip": "DotNetBank\\Services\\InMemoryUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:09:41.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InMemoryOperationService.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\InMemoryOperationService.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Services\\InMemoryOperationService.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\InMemoryOperationService.cs",
-              "RelativeToolTip": "DotNetBank\\Services\\InMemoryOperationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:09:15.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InMemoryAccountService.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\InMemoryAccountService.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Services\\InMemoryAccountService.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\InMemoryAccountService.cs",
-              "RelativeToolTip": "DotNetBank\\Services\\InMemoryAccountService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:08:32.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Services\\IUserService.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\IUserService.cs",
-              "RelativeToolTip": "DotNetBank\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:07:56.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IOperationService.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\IOperationService.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Services\\IOperationService.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\IOperationService.cs",
-              "RelativeToolTip": "DotNetBank\\Services\\IOperationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:07:18.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\IAccountService.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Services\\IAccountService.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\IAccountService.cs",
-              "RelativeToolTip": "DotNetBank\\Services\\IAccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:06:50.152Z",
+              "WhenOpened": "2025-11-07T11:27:14.996Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\UserProfile.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Models\\UserProfile.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\UserProfile.cs",
-              "RelativeToolTip": "DotNetBank\\Models\\UserProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:04:19.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SessionContext.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\SessionContext.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Models\\SessionContext.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\SessionContext.cs",
-              "RelativeToolTip": "DotNetBank\\Models\\SessionContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:03:54.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OperationRecord.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\OperationRecord.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Models\\OperationRecord.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\OperationRecord.cs",
-              "RelativeToolTip": "DotNetBank\\Models\\OperationRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:03:33.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AccountCreationRequest.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\AccountCreationRequest.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Models\\AccountCreationRequest.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\AccountCreationRequest.cs",
-              "RelativeToolTip": "DotNetBank\\Models\\AccountCreationRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:03:09.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "InMemoryStore.cs",
               "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Data\\InMemoryStore.cs",
               "RelativeDocumentMoniker": "DotNetBank\\Data\\InMemoryStore.cs",
               "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Data\\InMemoryStore.cs",
               "RelativeToolTip": "DotNetBank\\Data\\InMemoryStore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T17:02:10.593Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "DotNetBank\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Forms\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "DotNetBank\\Forms\\LoginForm.Designer.cs",
+              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Forms\\LoginForm.Designer.cs",
+              "RelativeToolTip": "DotNetBank\\Forms\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T17:01:26.827Z",
+              "WhenOpened": "2025-11-21T10:12:47.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
+              "Title": "SessionContext.cs",
+              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\SessionContext.cs",
+              "RelativeDocumentMoniker": "DotNetBank\\Models\\SessionContext.cs",
+              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Models\\SessionContext.cs",
+              "RelativeToolTip": "DotNetBank\\Models\\SessionContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T10:08:39.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "DotNetBank\\Forms\\LoginForm.cs",
+              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Forms\\LoginForm.cs",
+              "RelativeToolTip": "DotNetBank\\Forms\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T09:03:26.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.cs",
+              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Forms\\MainPage.cs",
+              "RelativeDocumentMoniker": "DotNetBank\\Forms\\MainPage.cs",
+              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Forms\\MainPage.cs",
+              "RelativeToolTip": "DotNetBank\\Forms\\MainPage.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T10:09:53.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "DotNetBank\\Controllers\\AccountsController.cs",
               "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Controllers\\AccountsController.cs",
               "RelativeToolTip": "DotNetBank\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T17:00:56.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Program.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Program.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Program.cs",
-              "RelativeToolTip": "DotNetBank\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DotNetBank\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DotNetBank\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T11:27:14.996Z",
+              "WhenOpened": "2025-11-20T17:01:26.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MainPage.cs [Design]",
-              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Forms\\MainPage.cs",
-              "RelativeDocumentMoniker": "DotNetBank\\Forms\\MainPage.cs",
-              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Forms\\MainPage.cs [Design]",
-              "RelativeToolTip": "DotNetBank\\Forms\\MainPage.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "InMemoryUserService.cs",
+              "DocumentMoniker": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\InMemoryUserService.cs",
+              "RelativeDocumentMoniker": "DotNetBank\\Services\\InMemoryUserService.cs",
+              "ToolTip": "D:\\University\\NBU\\NBU\\Year 3\\Semester 5\\CSCB579 \u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\u0440\u0430\u043D\u0435 \u043D\u0430 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0441 Microsoft Visual C# .NET\\ProjectOne\\DotNetBank\\DotNetBank\\DotNetBank\\Services\\InMemoryUserService.cs",
+              "RelativeToolTip": "DotNetBank\\Services\\InMemoryUserService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwCUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T21:57:20.053Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-20T17:09:41.419Z",
+              "EditorCaption": ""
             }
           ]
         }

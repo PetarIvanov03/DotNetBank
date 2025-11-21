@@ -52,6 +52,12 @@
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Data\InMemoryStore.cs" />
     <Compile Include="Exceptions\Exceptions.cs" />
+    <Compile Include="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MainPage.cs">
       <SubType>Form</SubType>
     </Compile>

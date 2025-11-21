@@ -21,29 +21,7 @@
         </member>
         <member name="T:DotNetBank.MainPage">
             <summary>
-            Represents the main application form for DotNetBank.
-            </summary>
-        </member>
-        <member name="M:DotNetBank.MainPage.#ctor">
-            <summary>
-            Initializes a new instance of the <see cref="T:DotNetBank.MainPage"/> class.
-            </summary>
-        </member>
-        <member name="F:DotNetBank.MainPage.components">
-            <summary>
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:DotNetBank.MainPage.Dispose(System.Boolean)">
-            <summary>
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:DotNetBank.MainPage.InitializeComponent">
-            <summary>
-            Required method for Designer support - do not modify
-            the contents of this method with the code editor.
+            Представя основния изглед на приложението.
             </summary>
         </member>
         <member name="T:DotNetBank.Models.AccountCreationRequest">

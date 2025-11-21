@@ -17,16 +17,15 @@ namespace DotNetBank
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainPage());
 
-            //// Инициализиране на in-memory услугите и контролерите.
-            //var operationService = new InMemoryOperationService();
-            //var accountService = new InMemoryAccountService(operationService);
-            //var userService = new InMemoryUserService();
-            //var authController = new AuthController(userService);
-            //var accountsController = new AccountsController(accountService, operationService);
+            // Инициализиране на in-memory услугите и контролерите.
+            var operationService = new InMemoryOperationService();
+            var accountService = new InMemoryAccountService(operationService);
+            var userService = new InMemoryUserService();
+            var authController = new AuthController(userService);
+            var accountsController = new AccountsController(accountService, operationService);
 
-            //Application.Run(new LoginForm(authController, accountsController));
+            Application.Run(new LoginForm(authController, accountsController));
         }
     }
 }
