@@ -3,7 +3,7 @@
 namespace DotNetBank.Models
 {
     /// <summary>
-    /// Проста операция над банкова сметка за целите на демонстрацията.
+    /// Petar Ivanov, F116389 - Проста операция над банкова сметка за целите на демонстрацията.
     /// </summary>
     public class OperationRecord
     {
@@ -15,6 +15,9 @@ namespace DotNetBank.Models
         public DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 
+    /// <summary>
+    /// Petar Ivanov, F116389 - Видове операции, които се записват в историята.
+    /// </summary>
     public enum OperationType
     {
         Deposit,

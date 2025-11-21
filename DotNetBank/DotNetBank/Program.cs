@@ -7,10 +7,13 @@ using DotNetBank.Services;
 
 namespace DotNetBank
 {
+    /// <summary>
+    /// Petar Ivanov, F116389 - Основният клас, който стартира WinForms приложението и инициализира зависимостите.
+    /// </summary>
     internal static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        /// Petar Ivanov, F116389 - Основна входна точка, която конфигурира визуалните стилове и стартира формата за вход.
         /// </summary>
         [STAThread]
         static void Main()

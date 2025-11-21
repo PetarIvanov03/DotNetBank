@@ -1,7 +1,7 @@
 ﻿namespace DotNetBank.Models
 {
     /// <summary>
-    /// DTO за създаване на нова банкова сметка.
+    /// Petar Ivanov, F116389 - DTO за създаване на нова банкова сметка с необходимите параметри.
     /// </summary>
     public class AccountCreationRequest
     {
@@ -12,6 +12,9 @@
         public AccountKind Kind { get; set; }
     }
 
+    /// <summary>
+    /// Petar Ivanov, F116389 - Видове банкови сметки, които приложението поддържа.
+    /// </summary>
     public enum AccountKind
     {
         Checking,

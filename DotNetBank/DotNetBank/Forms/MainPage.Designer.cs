@@ -2,6 +2,9 @@
 
 namespace DotNetBank
 {
+    /// <summary>
+    /// Petar Ivanov, F116389 - Дизайнерски файл за основната страница на приложението.
+    /// </summary>
     partial class MainPage
     {
         private System.ComponentModel.IContainer components = null;
@@ -32,6 +35,9 @@ namespace DotNetBank
         private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.Button btnRefreshOperations;
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Освобождава ресурсите на формата.
+        /// </summary>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -43,6 +49,9 @@ namespace DotNetBank
 
         #region Windows Form Designer generated code
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Инициализира визуалните компоненти на главната страница.
+        /// </summary>
         private void InitializeComponent()
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();

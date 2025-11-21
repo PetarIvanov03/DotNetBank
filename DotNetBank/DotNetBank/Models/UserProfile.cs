@@ -3,7 +3,7 @@
 namespace DotNetBank.Models
 {
     /// <summary>
-    /// Представлява потребителски профил за вход в системата.
+    /// Petar Ivanov, F116389 - Представлява потребителски профил за вход в системата.
     /// </summary>
     public class UserProfile
     {
@@ -13,6 +13,9 @@ namespace DotNetBank.Models
         public UserRole Role { get; set; } = UserRole.Standard;
     }
 
+    /// <summary>
+    /// Petar Ivanov, F116389 - Налични роли за достъп в приложението.
+    /// </summary>
     public enum UserRole
     {
         Standard,

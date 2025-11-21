@@ -7,19 +7,25 @@ using System.Windows.Forms;
 namespace DotNetBank
 {
     /// <summary>
-    /// Представя основния изглед на приложението.
+    /// Petar Ivanov, F116389 - Представя основния изглед на приложението.
     /// </summary>
     public partial class MainPage : Form
     {
 
         private readonly AccountsController _accountsController;
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Инжектира контролера за сметки и инициализира формата.
+        /// </summary>
         public MainPage(AccountsController accountsController)
         {
             _accountsController = accountsController;
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Зарежда началните данни за сметки и операции.
+        /// </summary>
         private void MainPage_Load(object sender, EventArgs e)
         {
             MakeGridNonClickable(gridAccounts);
@@ -35,16 +41,25 @@ namespace DotNetBank
             RefreshOperations();
         }
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Обновява таблицата със сметки.
+        /// </summary>
         private void RefreshAccounts()
         {
             gridAccounts.DataSource = _accountsController.ListAccounts().ToList();
         }
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Обновява таблицата с операции по зададен IBAN филтър.
+        /// </summary>
         private void RefreshOperations()
         {
             gridOperations.DataSource = _accountsController.ListOperations(txtOperationIban.Text).ToList();
         }
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Създава нова сметка от въведените данни.
+        /// </summary>
         private void btnCreate_Click(object sender, EventArgs e)
         {
             try
@@ -69,6 +84,9 @@ namespace DotNetBank
             }
         }
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Извършва депозит към избран IBAN и обновява изгледите.
+        /// </summary>
         private void btnDeposit_Click(object sender, EventArgs e)
         {
             try
@@ -90,6 +108,9 @@ namespace DotNetBank
             }
         }
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Извършва теглене от IBAN и обновява изгледите.
+        /// </summary>
         private void btnWithdraw_Click(object sender, EventArgs e)
         {
             try
@@ -111,6 +132,9 @@ namespace DotNetBank
             }
         }
 
+        /// <summary>
+        /// Petar Ivanov, F116389 - Презарежда списъка с операции според текущия IBAN филтър.
+        /// </summary>
         private void btnRefreshOperations_Click(object sender, EventArgs e)
         {
             RefreshOperations();
