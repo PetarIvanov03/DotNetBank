@@ -6,55 +6,520 @@
     <members>
         <member name="T:DotNetBank.Controllers.AccountsController">
             <summary>
-            Слоят между формите и услугите за банкови сметки.
+            Petar Ivanov, F116389 - Слоят между формите и услугите за банкови сметки, който управлява операциите за текущия потребител.
             </summary>
+        </member>
+        <member name="M:DotNetBank.Controllers.AccountsController.#ctor(DotNetBank.Services.IAccountService,DotNetBank.Services.IOperationService)">
+            <summary>
+            Petar Ivanov, F116389 - Създава нов контролер за банкови сметки с необходимите услуги.
+            </summary>
+            <param name="accountService">Услуга за управление на сметки.</param>
+            <param name="operationService">Услуга за регистриране на операции.</param>
+        </member>
+        <member name="M:DotNetBank.Controllers.AccountsController.Create(DotNetBank.Models.AccountCreationRequest)">
+            <summary>
+            Petar Ivanov, F116389 - Създава нова банкова сметка според предоставената заявка.
+            </summary>
+            <param name="request">DTO с данните за сметката.</param>
+            <returns>Създаденият обект <see cref="T:DotNetBank.Models.BankAccount"/>.</returns>
+        </member>
+        <member name="M:DotNetBank.Controllers.AccountsController.ListAccounts">
+            <summary>
+            Petar Ivanov, F116389 - Връща списък с банкови сметки за текущо логнатия потребител.
+            </summary>
+            <returns>Колекция от сметки или празен списък, ако няма активен потребител.</returns>
+        </member>
+        <member name="M:DotNetBank.Controllers.AccountsController.ListOperations(System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Извежда всички операции или тези за конкретна сметка по IBAN.
+            </summary>
+            <param name="iban">IBAN на сметката (по избор).</param>
+            <returns>Списък с операции.</returns>
+        </member>
+        <member name="M:DotNetBank.Controllers.AccountsController.Deposit(System.String,System.Decimal,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Заделя депозит по даден IBAN.
+            </summary>
+            <param name="iban">Сметката, в която се внасят средства.</param>
+            <param name="amount">Сумата за депозит.</param>
+            <param name="description">Описание на операцията.</param>
+        </member>
+        <member name="M:DotNetBank.Controllers.AccountsController.Withdraw(System.String,System.Decimal,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Извършва теглене от посочен IBAN.
+            </summary>
+            <param name="iban">Сметката, от която се тегли.</param>
+            <param name="amount">Сумата за теглене.</param>
+            <param name="description">Описание на операцията.</param>
         </member>
         <member name="T:DotNetBank.Controllers.AuthController">
             <summary>
-            Отговаря за login/register логиката.
+            Petar Ivanov, F116389 - Отговаря за логиката по вход и регистрация на потребители.
             </summary>
+        </member>
+        <member name="M:DotNetBank.Controllers.AuthController.#ctor(DotNetBank.Services.IUserService)">
+            <summary>
+            Petar Ivanov, F116389 - Инжектира услуга за потребители за нуждите на автентикацията.
+            </summary>
+            <param name="userService">Услуга за управление на потребители.</param>
+        </member>
+        <member name="M:DotNetBank.Controllers.AuthController.Login(System.String,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Опит за вход с потребителско име и парола, като запазва сесията при успех.
+            </summary>
+            <param name="username">Потребителско име.</param>
+            <param name="password">Парола.</param>
+            <returns>Профилът на потребителя или null при неуспех.</returns>
+        </member>
+        <member name="M:DotNetBank.Controllers.AuthController.Register(System.String,System.String,DotNetBank.Models.UserRole)">
+            <summary>
+            Petar Ivanov, F116389 - Регистрира нов потребител и връща създадения профил.
+            </summary>
+            <param name="username">Потребителско име.</param>
+            <param name="password">Парола.</param>
+            <param name="role">Роля на потребителя.</param>
+            <returns>Новият потребителски профил.</returns>
         </member>
         <member name="T:DotNetBank.Data.InMemoryStore">
             <summary>
-            Статичен "in-memory" склад за данни за целите на демонстрацията.
+            Petar Ivanov, F116389 - Статичен "in-memory" склад за данни за целите на демонстрацията.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Exceptions.InvalidAmountException">
+            <summary>
+            Petar Ivanov, F116389 - Изключение за невалидна сума.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Exceptions.InvalidAmountException.#ctor(System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Създава ново изключение за невалидна сума.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Exceptions.InsufficientFundsException">
+            <summary>
+            Petar Ivanov, F116389 - Изключение при липса на средства.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Exceptions.InsufficientFundsException.#ctor(System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Създава изключение при опит за теглене над наличното.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Exceptions.DuplicateAccountCodeException">
+            <summary>
+            Petar Ivanov, F116389 - Изключение при дублиран IBAN код.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Exceptions.DuplicateAccountCodeException.#ctor(System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Създава изключение с информация за дублирания код.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.LoginForm">
+            <summary>
+            Petar Ivanov, F116389 - Форма за вход и регистрация на потребители.
+            </summary>
+            <summary>
+            Petar Ivanov, F116389 - Дизайнерски файл за формата за вход.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.LoginForm.#ctor(DotNetBank.Controllers.AuthController,DotNetBank.Controllers.AccountsController)">
+            <summary>
+            Petar Ivanov, F116389 - Инжектира контролерите и стартира инициализацията на компонентите.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.LoginForm.btnLogin_Click(System.Object,System.EventArgs)">
+            <summary>
+            Petar Ivanov, F116389 - Обработва събитието за вход и отваря основната страница при успех.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.LoginForm.btnRegister_Click(System.Object,System.EventArgs)">
+            <summary>
+            Petar Ivanov, F116389 - Обработва регистрацията на нов потребител и показва съобщение за резултата.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.LoginForm.Dispose(System.Boolean)">
+            <summary>
+            Petar Ivanov, F116389 - Освобождава ресурсите, използвани от формата.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.LoginForm.InitializeComponent">
+            <summary>
+            Petar Ivanov, F116389 - Инициализира визуалните компоненти на формата за вход.
             </summary>
         </member>
         <member name="T:DotNetBank.MainPage">
             <summary>
-            Представя основния изглед на приложението.
+            Petar Ivanov, F116389 - Представя основния изглед на приложението.
+            </summary>
+            <summary>
+            Petar Ivanov, F116389 - Дизайнерски файл за основната страница на приложението.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.MainPage.#ctor(DotNetBank.Controllers.AccountsController)">
+            <summary>
+            Petar Ivanov, F116389 - Инжектира контролера за сметки и инициализира формата.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.MainPage.MainPage_Load(System.Object,System.EventArgs)">
+            <summary>
+            Petar Ivanov, F116389 - Зарежда началните данни за сметки и операции.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.MainPage.RefreshAccounts">
+            <summary>
+            Petar Ivanov, F116389 - Обновява таблицата със сметки.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.MainPage.RefreshOperations">
+            <summary>
+            Petar Ivanov, F116389 - Обновява таблицата с операции по зададен IBAN филтър.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.MainPage.btnCreate_Click(System.Object,System.EventArgs)">
+            <summary>
+            Petar Ivanov, F116389 - Създава нова сметка от въведените данни.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.MainPage.btnDeposit_Click(System.Object,System.EventArgs)">
+            <summary>
+            Petar Ivanov, F116389 - Извършва депозит към избран IBAN и обновява изгледите.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.MainPage.btnWithdraw_Click(System.Object,System.EventArgs)">
+            <summary>
+            Petar Ivanov, F116389 - Извършва теглене от IBAN и обновява изгледите.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.MainPage.btnRefreshOperations_Click(System.Object,System.EventArgs)">
+            <summary>
+            Petar Ivanov, F116389 - Презарежда списъка с операции според текущия IBAN филтър.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.MainPage.Dispose(System.Boolean)">
+            <summary>
+            Petar Ivanov, F116389 - Освобождава ресурсите на формата.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.MainPage.InitializeComponent">
+            <summary>
+            Petar Ivanov, F116389 - Инициализира визуалните компоненти на главната страница.
             </summary>
         </member>
         <member name="T:DotNetBank.Models.AccountCreationRequest">
             <summary>
-            DTO за създаване на нова банкова сметка.
+            Petar Ivanov, F116389 - DTO за създаване на нова банкова сметка с необходимите параметри.
             </summary>
+        </member>
+        <member name="T:DotNetBank.Models.AccountKind">
+            <summary>
+            Petar Ivanov, F116389 - Видове банкови сметки, които приложението поддържа.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Models.BankAccount">
+            <summary>
+            Petar Ivanov, F116389 - Абстрактна база за всички банкови сметки, съдържаща общите свойства и операции.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Models.BankAccount.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Конструктор за инициализиране на IBAN, собственик и валута.
+            </summary>
+            <param name="IBAN">Уникален IBAN на сметката.</param>
+            <param name="OwnerName">Име на собственика.</param>
+            <param name="Currency">Валутен код.</param>
+        </member>
+        <member name="M:DotNetBank.Models.BankAccount.Deposit(System.Decimal)">
+            <summary>
+            Petar Ivanov, F116389 - Депозира посочената сума след валидиране на стойността.
+            </summary>
+            <param name="amount">Сумата за депозит.</param>
+        </member>
+        <member name="M:DotNetBank.Models.BankAccount.Withdraw(System.Decimal)">
+            <summary>
+            Petar Ivanov, F116389 - Тегли средства от сметката, ако има наличност и сумата е валидна.
+            </summary>
+            <param name="amount">Сумата за теглене.</param>
+        </member>
+        <member name="M:DotNetBank.Models.BankAccount.ToString">
+            <summary>
+            Petar Ivanov, F116389 - Връща четливо описание на сметката за целите на дебъг и UI.
+            </summary>
+            <returns>Текстово описание с IBAN и собственик.</returns>
+        </member>
+        <member name="T:DotNetBank.Models.CheckingAccount">
+            <summary>
+            Petar Ivanov, F116389 - Чекова сметка с такса за теглене и минимален баланс.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Models.CheckingAccount.#ctor(System.String,System.String,System.String,System.Decimal)">
+            <summary>
+            Petar Ivanov, F116389 - Създава нова чекова сметка с начални стойности.
+            </summary>
+            <param name="code">IBAN код.</param>
+            <param name="owner">Име на собственика.</param>
+            <param name="currency">Валутен код.</param>
+            <param name="initial">Начално салдо.</param>
+        </member>
+        <member name="M:DotNetBank.Models.CheckingAccount.Withdraw(System.Decimal)">
+            <summary>
+            Petar Ivanov, F116389 - Тегли сума като включва такса и валидира минималния баланс.
+            </summary>
+            <param name="amount">Сумата за теглене.</param>
         </member>
         <member name="T:DotNetBank.Models.OperationRecord">
             <summary>
-            Проста операция над банкова сметка за целите на демонстрацията.
+            Petar Ivanov, F116389 - Проста операция над банкова сметка за целите на демонстрацията.
             </summary>
         </member>
+        <member name="T:DotNetBank.Models.OperationType">
+            <summary>
+            Petar Ivanov, F116389 - Видове операции, които се записват в историята.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Models.SavingsAccount">
+            <summary>
+            Petar Ivanov, F116389 - Спестовна сметка с основна лихва и стандартно теглене.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Models.SavingsAccount.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Инициализира спестовна сметка с IBAN, собственик и валута.
+            </summary>
+            <param name="code">IBAN код.</param>
+            <param name="owner">Име на собственика.</param>
+            <param name="currency">Валутен код.</param>
+        </member>
         <member name="M:DotNetBank.Models.SavingsAccount.ApplyMonthlyInterest">
-            <summary>Начисляване на месечна лихва (прост пример).</summary>
+            <summary>
+            Petar Ivanov, F116389 - Начислява проста месечна лихва при налично положително салдо.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Models.SavingsAccount.Withdraw(System.Decimal)">
+            <summary>
+            Petar Ivanov, F116389 - Позволява теглене без допълнителни такси чрез базовата логика.
+            </summary>
+            <param name="amount">Сумата за теглене.</param>
+        </member>
+        <member name="M:DotNetBank.Models.SavingsAccount.ToString">
+            <summary>
+            Petar Ivanov, F116389 - Допълва описанието на сметката с типа на класа.
+            </summary>
+            <returns>Текстово описание на сметката и типа.</returns>
         </member>
         <member name="T:DotNetBank.Models.SessionContext">
             <summary>
-            Просто хранилище за текущия потребител по време на изпълнение.
+            Petar Ivanov, F116389 - Просто хранилище за текущия потребител по време на изпълнение.
             </summary>
+        </member>
+        <member name="M:DotNetBank.Models.SessionContext.SignIn(DotNetBank.Models.UserProfile)">
+            <summary>
+            Petar Ivanov, F116389 - Задава активния потребител след успешен вход.
+            </summary>
+            <param name="user">Профилът за вписване.</param>
+        </member>
+        <member name="M:DotNetBank.Models.SessionContext.SignOut">
+            <summary>
+            Petar Ivanov, F116389 - Премахва информацията за текущия потребител при изход.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Models.StudentAccount">
+            <summary>
+            Petar Ivanov, F116389 - Студентска сметка с ограничен брой безплатни тегления и минимална такса.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Models.StudentAccount.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Конструира студентска сметка със собственик и валута.
+            </summary>
+            <param name="code">IBAN код.</param>
+            <param name="owner">Име на собственика.</param>
+            <param name="currency">Валутен код.</param>
+        </member>
+        <member name="M:DotNetBank.Models.StudentAccount.Withdraw(System.Decimal)">
+            <summary>
+            Petar Ivanov, F116389 - Тегли сума, като прилага такса след изчерпване на безплатните тегления.
+            </summary>
+            <param name="amount">Сумата за теглене.</param>
         </member>
         <member name="T:DotNetBank.Models.UserProfile">
             <summary>
-            Представлява потребителски профил за вход в системата.
+            Petar Ivanov, F116389 - Представлява потребителски профил за вход в системата.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Models.UserRole">
+            <summary>
+            Petar Ivanov, F116389 - Налични роли за достъп в приложението.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Program">
+            <summary>
+            Petar Ivanov, F116389 - Основният клас, който стартира WinForms приложението и инициализира зависимостите.
             </summary>
         </member>
         <member name="M:DotNetBank.Program.Main">
             <summary>
-            The main entry point for the application.
+            Petar Ivanov, F116389 - Основна входна точка, която конфигурира визуалните стилове и стартира формата за вход.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Services.IAccountService">
+            <summary>
+            Petar Ivanov, F116389 - Контракт за услуги, управляващи банкови сметки.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IAccountService.Create(DotNetBank.Models.AccountCreationRequest)">
+            <summary>
+            Petar Ivanov, F116389 - Създава нова сметка по зададена заявка.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IAccountService.GetByOwner(System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Връща сметки за конкретен собственик.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IAccountService.GetAll">
+            <summary>
+            Petar Ivanov, F116389 - Доставя всички налични сметки.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IAccountService.Find(System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Намира сметка по IBAN.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IAccountService.Deposit(System.String,System.Decimal,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Внася средства по сметка с описание.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IAccountService.Withdraw(System.String,System.Decimal,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Тегли средства от сметка с описание.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Services.InMemoryAccountService">
+            <summary>
+            Petar Ivanov, F116389 - In-memory имплементация на услуги за банкови сметки.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryAccountService.#ctor(DotNetBank.Services.IOperationService)">
+            <summary>
+            Petar Ivanov, F116389 - Инжектира услуга за операции за автоматично логване.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryAccountService.Create(DotNetBank.Models.AccountCreationRequest)">
+            <summary>
+            Petar Ivanov, F116389 - Създава банкова сметка според заявката и логва началното салдо.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryAccountService.GetByOwner(System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Връща всички сметки за даден собственик.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryAccountService.GetAll">
+            <summary>
+            Petar Ivanov, F116389 - Връща всички съхранени сметки.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryAccountService.Find(System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Намира конкретна сметка по IBAN.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryAccountService.Deposit(System.String,System.Decimal,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Внася средства в посочен IBAN и създава запис за операцията.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryAccountService.Withdraw(System.String,System.Decimal,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Тегли средства от IBAN и логва операцията.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryAccountService.RequireAccount(System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Валидира, че сметката съществува и я връща.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Services.InMemoryOperationService">
+            <summary>
+            Petar Ivanov, F116389 - In-memory услуга за регистриране и извличане на операции.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryOperationService.Log(System.String,DotNetBank.Models.OperationType,System.Decimal,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Добавя нов запис за операция с IBAN, тип и сума.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryOperationService.GetForAccount(System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Връща всички операции за конкретна сметка.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryOperationService.GetAll">
+            <summary>
+            Petar Ivanov, F116389 - Извежда всички операции от хранилището.
             </summary>
         </member>
         <member name="T:DotNetBank.Services.InMemoryUserService">
             <summary>
-            Прост in-memory UserService. Паролите са в чист текст за целите на упражнението.
+            Petar Ivanov, F116389 - Прост in-memory UserService. Паролите са в чист текст за целите на упражнението.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryUserService.Register(System.String,System.String,DotNetBank.Models.UserRole)">
+            <summary>
+            Petar Ivanov, F116389 - Регистрира нов потребител след базова валидация и проверка за дублиране.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryUserService.Login(System.String,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Извършва проверка на креденшъли и връща намерения потребител.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.InMemoryUserService.GetAll">
+            <summary>
+            Petar Ivanov, F116389 - Връща всички потребители от in-memory хранилището.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Services.IOperationService">
+            <summary>
+            Petar Ivanov, F116389 - Контракт за услуги за регистриране и извличане на операции.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IOperationService.Log(System.String,DotNetBank.Models.OperationType,System.Decimal,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Добавя нов запис за операция върху сметка.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IOperationService.GetForAccount(System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Връща операции за конкретен IBAN.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IOperationService.GetAll">
+            <summary>
+            Petar Ivanov, F116389 - Извежда всички записани операции.
+            </summary>
+        </member>
+        <member name="T:DotNetBank.Services.IUserService">
+            <summary>
+            Petar Ivanov, F116389 - Контракт за услуги, управляващи потребители и автентикация.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IUserService.Register(System.String,System.String,DotNetBank.Models.UserRole)">
+            <summary>
+            Petar Ivanov, F116389 - Регистрира нов потребител с роля.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IUserService.Login(System.String,System.String)">
+            <summary>
+            Petar Ivanov, F116389 - Извършва вход по потребителско име и парола.
+            </summary>
+        </member>
+        <member name="M:DotNetBank.Services.IUserService.GetAll">
+            <summary>
+            Petar Ivanov, F116389 - Извлича всички регистрирани потребители.
             </summary>
         </member>
         <member name="T:DotNetBank.Properties.Resources">
